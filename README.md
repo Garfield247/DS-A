@@ -50,5 +50,15 @@
 
     [希尔排序.md](./01_basic/04_希尔排序/希尔排序.md)
 
+- ./01_basic/05_归并排序
+
+    [Main.java](./01_basic/05_归并排序/Main.java)
+
+    [main.go](./01_basic/05_归并排序/main.go)
+
+    [main.py](./01_basic/05_归并排序/main.py)
+
+    [归并排序.md](./01_basic/05_归并排序/归并排序.md)
+
     [README.md](./README.md)
 
