@@ -32,37 +32,40 @@ func merge(array []int, leftPoint int, rightPoint int, rightBound int) {
 	temp := make([]int, rightBound-leftPoint+1)
 	var tempPoint int = 0
 
-	for leftPoint < mid && rightPoint < rightBound {
-		fmt.Printf("1|leftPoint:%d|rightPoint:%d|tempPoint:%d|temp:%v|array:%v\n", leftPoint, rightPoint, tempPoint, temp, array)
+	var i int = leftPoint
+	var j int = rightPoint
 
-		if array[leftPoint] <= array[rightPoint] {
-			fmt.Printf("array[%d]:%d\n", leftPoint, array[leftPoint])
-			temp[tempPoint] = array[leftPoint]
+	for i <= mid && j <= rightBound {
+		fmt.Printf("1|i:%d|j:%d|tempPoint:%d|temp:%v|array:%v\n", i, j, tempPoint, temp, array)
+
+		if array[i] <= array[j] {
+			fmt.Printf("array[%d]:%d\n", i, array[i])
+			temp[tempPoint] = array[i]
 			fmt.Println("temp:", temp)
-			leftPoint++
+			i++
 			tempPoint++
 		} else {
-			temp[tempPoint] = array[rightPoint]
-			fmt.Printf("array[%d]:%d\n", rightPoint, array[rightPoint])
+			temp[tempPoint] = array[j]
+			fmt.Printf("array[%d]:%d\n", j, array[j])
 			fmt.Println("temp:", temp)
-			rightPoint++
+			j++
 			tempPoint++
 		}
 	}
-	for leftPoint <= mid {
-		temp[tempPoint] = array[leftPoint]
+	for i <= mid {
+		temp[tempPoint] = array[i]
 		tempPoint++
-		leftPoint++
+		i++
 	}
-	for rightPoint < rightBound {
-		temp[tempPoint] = array[rightPoint]
+	for j <= rightBound {
+		temp[tempPoint] = array[j]
 		tempPoint++
-		rightPoint++
+		j++
 
 	}
 
-	for i := leftPoint; i <= rightBound; i++ {
-		array[i] = temp[i-leftPoint]
+	for x := 0; x < len(temp); x++ {
+		array[x+leftPoint] = temp[x]
 	}
 	fmt.Println(array)
 }
