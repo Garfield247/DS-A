@@ -52,6 +52,8 @@
 
 - ./01_basic/05_归并排序
 
+    [Main.class](./01_basic/05_归并排序/Main.class)
+
     [Main.java](./01_basic/05_归并排序/Main.java)
 
     [main.go](./01_basic/05_归并排序/main.go)
