@@ -4,63 +4,71 @@
 
 - ./01_basic/01_选择排序
 
-    [Main.class](./01_basic/01_选择排序/Main.class)
+    [SelectionSort.class](./01_basic/01_选择排序/SelectionSort.class)
 
-    [Main.java](./01_basic/01_选择排序/Main.java)
+    [SelectionSort.java](./01_basic/01_选择排序/SelectionSort.java)
 
-    [main.go](./01_basic/01_选择排序/main.go)
+    [selectionSort.go](./01_basic/01_选择排序/selectionSort.go)
 
-    [main.py](./01_basic/01_选择排序/main.py)
+    [selectionSort.py](./01_basic/01_选择排序/selectionSort.py)
 
     [选择排序.md](./01_basic/01_选择排序/选择排序.md)
 
 - ./01_basic/02_冒泡排序
 
-    [Main.class](./01_basic/02_冒泡排序/Main.class)
+    [BubbleSort.class](./01_basic/02_冒泡排序/BubbleSort.class)
 
-    [Main.java](./01_basic/02_冒泡排序/Main.java)
+    [BubbleSort.java](./01_basic/02_冒泡排序/BubbleSort.java)
 
-    [main.go](./01_basic/02_冒泡排序/main.go)
+    [bubbleSort.go](./01_basic/02_冒泡排序/bubbleSort.go)
 
-    [main.py](./01_basic/02_冒泡排序/main.py)
+    [bubbleSort.py](./01_basic/02_冒泡排序/bubbleSort.py)
 
     [冒泡排序.md](./01_basic/02_冒泡排序/冒泡排序.md)
 
 - ./01_basic/03_插入排序
 
-    [Main.class](./01_basic/03_插入排序/Main.class)
+    [InsertionSort.java](./01_basic/03_插入排序/InsertionSort.java)
 
-    [Main.java](./01_basic/03_插入排序/Main.java)
+    [insertionSort.go](./01_basic/03_插入排序/insertionSort.go)
 
-    [main.go](./01_basic/03_插入排序/main.go)
-
-    [main.py](./01_basic/03_插入排序/main.py)
+    [insertionSort.py](./01_basic/03_插入排序/insertionSort.py)
 
     [插入排序.md](./01_basic/03_插入排序/插入排序.md)
 
 - ./01_basic/04_希尔排序
 
-    [Main.class](./01_basic/04_希尔排序/Main.class)
+    [shellSort.class](./01_basic/04_希尔排序/shellSort.class)
 
-    [Main.java](./01_basic/04_希尔排序/Main.java)
+    [shellSort.go](./01_basic/04_希尔排序/shellSort.go)
 
-    [main.go](./01_basic/04_希尔排序/main.go)
+    [shellSort.java](./01_basic/04_希尔排序/shellSort.java)
 
-    [main.py](./01_basic/04_希尔排序/main.py)
+    [shellSort.py](./01_basic/04_希尔排序/shellSort.py)
 
     [希尔排序.md](./01_basic/04_希尔排序/希尔排序.md)
 
 - ./01_basic/05_归并排序
 
-    [Main.class](./01_basic/05_归并排序/Main.class)
+    [MergeSort.class](./01_basic/05_归并排序/MergeSort.class)
 
-    [Main.java](./01_basic/05_归并排序/Main.java)
+    [MergeSort.java](./01_basic/05_归并排序/MergeSort.java)
 
-    [main.go](./01_basic/05_归并排序/main.go)
+    [mergeSort.go](./01_basic/05_归并排序/mergeSort.go)
 
-    [main.py](./01_basic/05_归并排序/main.py)
+    [mergeSort.py](./01_basic/05_归并排序/mergeSort.py)
 
     [归并排序.md](./01_basic/05_归并排序/归并排序.md)
+
+- ./01_basic/06_快速排序
+
+    [QuickSort.java](./01_basic/06_快速排序/QuickSort.java)
+
+    [quickSort.go](./01_basic/06_快速排序/quickSort.go)
+
+    [quickSort.py](./01_basic/06_快速排序/quickSort.py)
+
+    [快速排序.md](./01_basic/06_快速排序/快速排序.md)
 
     [README.md](./README.md)
 

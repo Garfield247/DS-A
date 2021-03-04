@@ -1,10 +1,10 @@
-public class Main {
+public class shellSort {
 
     public static void main (String[] args) {
         int[] nums = new int[]{213, 42, 32, 432, 12, 543, 256, 65, 856, 74, 234, 532, 43, 92, 63, 433};
-        shellSort(nums);
+        myShellSort(nums);
     }
-    private static void shellSort(int[] array) {
+    private static void myShellSort(int[] array) {
         int len = array.length;
         for (int gap=len/2;gap>0;gap/=2){
             System.out.println(gap);
